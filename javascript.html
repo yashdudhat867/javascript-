@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     
+    <p id="demo"></p>
+
+    <button type="button"
+    onclick="document.getElementById('demo').innerHTML = Date()">
+    Click me to display Date and Time.</button>   
+<hr>
+<p id="shreeji">javascript easy language</p>
+<button type="button"
+onclick='document.getElementById("shreeji").innerHTML="yash dudhat"'>click</button>
+<hr>
+<p id="yash">javascript change handwriting</p>
+<button type="button"
+onclick="document.getElementById('yash').style.fontSize='20px'">click</button>
+<hr>
+<p id="het">silver oak university</p>
+<button type="button"
+onclick="document.getElementById('het').style.display='none'">Click</button>
+<hr>
+<p id="saurabh" style="display: none;">website</p>
+<button type="button"
+onclick="document.getElementById('saurabh').style.display='block'">Click</button>
+<hr>
+<p id="demo"></p>
+<script>
+document.getElementById("demo").innerHTML = "My First JavaScript";
+</script>
+<hr>
+<script>
+function
+myfunction(){
+    document.getElementById("param").innerHTML="Hey!yash";}
+</script>
+    <p id="param">silver line</p>
+    <button type="button"
+    onclick="myfunction()">button</button>
+    <hr>
+    <p id="demo">A Paragraph.</p>
+
+    <button type="button" onclick="myFunction()">Try it</button>
+    
+    <script>
+    function myFunction() {
+      document.getElementById("demo").innerHTML = "Paragraph changed.";
+    }
+    </script>
+    <hr>
+    <h2>Demo External JavaScript</h2>
+
+<p id="demo">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<p>This example links to "myScript.js".</p>
+<p>(myFunction is stored in "myScript.js")</p>
+
+<script src="myScript.js"></script>
+<hr>
+<p id="yash"></p>
+<script>
+    document.getElementById("yash").innerHTML="3+5";
+</script>
+</body>
+</html>
+
